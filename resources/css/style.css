@@ -3,6 +3,10 @@ html {
   background-color: white;
 }
 
+img {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Header & Navigation */
 
@@ -92,18 +96,18 @@ li a:link {
 }
 
 .banner-copy {
-  margin-left: 1rem;
+  margin: 0 1rem;
 }
 
 .banner-copy h1 {
   font-family: 'PT Sans';
   font-weight: 800;
   color: rgb(88, 45, 153);
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 24px;
 }
 .banner-copy h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .banner-copy .btn {
@@ -119,9 +123,120 @@ li a:link {
 
 .banner-copy .btn:hover {
   background-color: rgb(192, 159, 242);
-  color: rgb(214, 214, 214);
+  color: #fff;
   text-decoration: underline;
   font-weight: bold;
 }
 
 /* Informations */
+
+.info {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.main {
+  margin: 32px 24px;
+  width: 62%;
+  padding-bottom: 2rem;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+.main h2 {
+  font-family: 'PT Sans';
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 0 0 24px 0;
+  color: rgb(88, 45, 153);
+}
+
+.main p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4rem;
+  padding-right: 24px;
+  margin-bottom: 16px;
+}
+
+.main h6 {
+  font-size: .8rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.main h6:hover {
+  font-weight: bold;
+  color: rgb(88, 45, 153);
+}
+
+/* Articles */
+
+.article-container {
+  border-left: 1px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.articles .article {
+  width: 100%;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: flex-start;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.article img {
+  width: 35%;
+  height: 100%;
+  margin: 0 16px;
+}
+
+.description {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h4 {
+  margin-bottom: 1rem;
+  font-family: 'PT Sans';
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(88, 45, 153);
+  text-transform: uppercase;
+}
+
+#article3 {
+  background-color: rgba(192, 159, 242, .5);
+}
+
+.description p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.description h6 {
+  font-size: .8rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.description h6:hover {
+  font-weight: bold;
+  color: rgb(88, 45, 153);
+}
