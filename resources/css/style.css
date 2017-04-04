@@ -1,0 +1,127 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+
+/* Header & Navigation */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  width: 100%;
+}
+
+/* Logo */
+
+.desktop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding-bottom:
+}
+
+.colmar {
+  font-weight: 700;
+  color: rgb(88, 45, 153);
+}
+
+.academy {
+  padding-left: .25px;
+}
+
+.lion img {
+  width: 2rem;
+  height: auto;
+}
+
+/* Navigation */
+
+.desktop nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.desktop nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.desktop nav ul li {
+  padding-left: 1rem;
+}
+
+li a:link {
+  color: rgb(88, 45, 153);
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+  align-items: center;
+}
+
+.banner img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.banner-copy {
+  margin-left: 1rem;
+}
+
+.banner-copy h1 {
+  font-family: 'PT Sans';
+  font-weight: 800;
+  color: rgb(88, 45, 153);
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+.banner-copy h3 {
+  font-size: 1.75rem;
+}
+
+.banner-copy .btn {
+  background-color: rgb(88, 45, 153);
+  color: white;
+  font-size: 1.1rem;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 35px;
+  border-radius: 0%;
+}
+
+.banner-copy .btn:hover {
+  background-color: rgb(192, 159, 242);
+  color: rgb(214, 214, 214);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Informations */
