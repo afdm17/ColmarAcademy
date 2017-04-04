@@ -342,3 +342,34 @@ video {
   color: rgb(88, 45, 153);
   text-transform: uppercase;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: rgb(40, 11, 84);
+  color: white;
+}
+
+.terms nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.terms nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.terms nav ul li {
+  padding-left: 1rem;
+}
+
+.terms li a:link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
