@@ -102,39 +102,51 @@
           <div class="course">
             <div class="box">
               <img src="./resources/images/course-software.jpg" alt="software">
-              <h4>Software Engineering</h4>
-              <h5>Courses</h5>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+              <div class="box-copy">
+                <h4>Software Engineering</h4>
+                <h5>Courses</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-computer-art.jpg" alt="computer">
-              <h4>Computer article</h4>
-              <h5>Courses</h5>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <div class="box-copy">
+                <h4>Computer Article</h4>
+                <h5>Courses</h5>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-design.jpg" alt="design">
-              <h4>Design</h4>
-              <h5>Courses</h5>
-              <p>User Experience Design, User Research, Visual Design</p>
+              <div class="box-copy">
+                <h4>Design</h4>
+                <h5>Courses</h5>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-data.jpg" alt="data">
-              <h4>Data</h4>
-              <h5>Courses</h5>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+              <div class="box-copy">
+                <h4>Data</h4>
+                <h5>Courses</h5>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-business.jpg" alt="business">
-              <h4>Business</h4>
-              <h5>Courses</h5>
-              <p>Product Develpment, Business Development, Startup</p>
+              <div class="box-copy">
+                <h4>Business</h4>
+                <h5>Courses</h5>
+                <p>Product Develpment, Business Development, Startup</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-marketing.jpg" alt="marketing">
-              <h4>Marketing</h4>
-              <h5>Courses</h5>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <div class="box-copy">
+                <h4>Marketing</h4>
+                <h5>Courses</h5>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
           </div>
         </div>
@@ -142,28 +154,40 @@
 
 <!-- Thesis -->
 
-
-        <div class="info">
+        <div class="thesis">
           <h2>Thesis Exhibit</h2>
+        </div>
+        <div class="info" id="thesis">
           <div class="main">
-            <video src="./resources/videos/thesis.mp4" autoplay="off" poster="posterimage.jpg" width="600px" height="400px" controls="pause/play">Video Not Supported
-            </video>
-            <h4>Reimagine Urban</h4>
-            <span class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam egat magna laoreet, efficitur dolor consequat, tritique ligula."</span>
+            <div class="main-video">
+              <video controls poster>
+                <source src="./resources/videos/thesis.mp4" type="video/mp4" id="video"> Your browser does not support this video.
+              </video>
+            </div>
+            <div class="video-text">
+              <h4>Reimagine Urban</h4>
+              <p class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam egat magna laoreet, efficitur dolor consequat, tritique ligula."</p>
+            </div>
           </div>
 
-          <!-- Secondary -->
+          <!-- Articles -->
 
-          <div class="secondary">
-            <div class="second">
-              <img src="./resources/images/thesis-fisma.jpg" alt="fisma" id="fisma">
-              <h4>Fisma: Design and</h4>
-              <p>Designer showcase of new prototype product</p>
-            </div>
-            <div class="second">
-              <img src="./resources/images/information-campus.jpg" alt="campus" id="campus">
-              <h4>Now and Then</h4>
-              <p>Research study about New York</p>
+          <div class="article-container">
+            <div class="articles">
+              <div class="article" id="video">
+                <img src="./resources/images/thesis-fisma.jpg" alt="fisma" id="fisma">
+                <div class="description">
+                  <h4>Fisma: Design and</h4>
+                  <p>Designer showcase of new prototype product</p>
+                </div>
+              </div>
+              <div class="article" id="article5">
+                <img src="./resources/images/information-campus.jpg" alt="campus" id="campus">
+                <div class="description">
+                  <h4>Now and Then</h4>
+                  <p>Research study about New York</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

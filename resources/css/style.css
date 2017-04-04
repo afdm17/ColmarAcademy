@@ -55,6 +55,7 @@ header {
 .lion img {
   width: 2rem;
   height: auto;
+  box-shadow: none;
 }
 
 /* Navigation */
@@ -239,4 +240,105 @@ li a:link {
 .description h6:hover {
   font-weight: bold;
   color: rgb(88, 45, 153);
+}
+
+/* Courses */
+
+.courses {
+  display: flex;
+  background-color: rgb(40, 11, 84);
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses h2 {
+  font-family: 'PT Sans';
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.course {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.box {
+  width: 25%;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  height: 325px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  box-shadow: none;
+}
+
+.box-copy {
+  padding: 16px 16px 24px 16px;
+}
+
+.box-copy h4 {
+  color: rgb(88, 45, 153);
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-bottom: 12px;
+}
+
+.box-copy h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .9rem;
+  padding-bottom: 12px;
+}
+
+.box-copy p {
+  font-size: .8rem;
+  line-height: 1.1rem;
+}
+
+/* Thesis*/
+
+.thesis {
+  font-family: 'PT Sans';
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(88, 45, 153);
+  margin: 2rem 0;
+}
+ #thesis {
+   border-top: 1px solid #d6d6d6;
+ }
+
+#thesis #article5 {
+  border-bottom: none;
+}
+
+/* Video */
+.main-video {
+  justify-content: flex-start;
+}
+video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.video-text h4 {
+  margin-bottom: 1rem;
+  font-family: 'PT Sans';
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(88, 45, 153);
+  text-transform: uppercase;
 }
