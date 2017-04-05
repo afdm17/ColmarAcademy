@@ -1,166 +1,237 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700|PT+Sans:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <meta charset="utf-8">
     <title>Colmar Academy</title>
   </head>
   <body>
-    <div class="container">
 
 <!--Header-->
 
       <header>
-        <div class="logo">
-          <img src="./resources/images/ic-logo.svg" alt="lion" id="logo-image">
-          <span>Colmar</span>
-          <span>Academy</span>
-        <nav class="header">
-          <span>On Campus</span>
-          <span>Online</span>
-          <span>Or Companies</span>
-          <span>Sign In</span>
-        </nav>
+        <div class="desktop">
+          <div class="logo">
+            <div class="lion">
+              <img src="./resources/images/ic-logo.svg" alt="lion">
+            </div>
+            <div class="name">
+              <a href="#">
+                <span class="colmar">Colmar</span>
+                <span class="academy">Academy</span>
+              </a>
+            </div>
+          </div>
+          <nav class="header">
+            <ul>
+              <li><a href="#">On Campus</a></li>
+              <li><a href="#">Online</a></li>
+              <li><a href="#">Or Companies</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile">
+            <nav>
+              <ul>
+                <li><a href="#"><img src="./resources/images/ic-logo.svg" alt="lion"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On Campus"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-online.svg" alt="On Campus"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-login.svg" alt="On Campus"></a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
-    </div>
+
 
 <!-- Banner -->
 
-    <div class="container">
-      <div class="banner">
-        <img src="./resources/images/banner.jpg" alt="banner" id="banner-image">
-        <div class="banner-copy">
-          <h1>Learn something new everyday</h1>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <div class="btn">
-            <span>Start Here</span>
-          </div>
+
+    <div class="banner">
+      <img src="./resources/images/banner.jpg" alt="banner" id="banner-image">
+      <div class="banner-copy">
+        <h1>Learn something<br />new everyday</h1>
+        <h3>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</h3>
+        <div class="btn">
+          <span>Start Here</span>
         </div>
       </div>
     </div>
 
+
 <!-- Information -->
 
-    <div class="container">
       <div class="info">
         <div class="main">
           <img src="./resources/images/information-main.jpg" alt="main">
           <h2>It doesn't hurt to keep practicing</h2>
-          <span class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accuman urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</span>
-          <p class="source">Emanuel, Sr Strategist at Hiring.com</p>
+          <p class="quote"><em>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accuman urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</em></p>
+          <h6 class="source"><em>Emanuel, Sr Strategist at Hiring.com</em></h6>
         </div>
 
-        <!-- Secondary -->
-
-        <div class="secondary" "container">
-          <div class="second">
-            <img src="./resources/images/information-orientation.jpg" alt="orientation" id="orientation">
-            <h4>Orientation Date</h4>
-            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-            <span>Read more</span>
-          </div>
-          <div class="second">
-            <img src="./resources/images/information-campus.jpg" alt="campus" id="campus">
-            <h4>Our Campus</h4>
-            <p>Find which campus is close by you</p>
-            <span>Read more</span>
-          </div>
-          <div class="second">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="guest" id="guest">
-            <h4>Our Guest Lecture</h4>
-            <p>Join a keynote with Oliver Slack about music in medical treatment.</p>              <span>Read more</span>
+        <!-- Articles -->
+        <div class="article-container">
+          <div class="articles">
+            <div class="article" id="article1">
+              <img src="./resources/images/information-orientation.jpg" alt="orientation">
+              <div class="description">
+                <h4>Orientation Date</h4>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <h6>Read more</h6>
+              </div>
+            </div>
+            <div class="article" id="article2">
+              <img src="./resources/images/information-campus.jpg" alt="campus">
+              <div class="description">
+                <h4>Our Campus</h4>
+                <p>Find which campus is close by you</p>
+                <h6>Read more</h6>
+              </div>
+            </div>
+            <div class="article" id="article3">
+              <img src="./resources/images/information-guest-lecture.jpg" alt="guest">
+              <div class="description">
+                <h4>Our Guest Lecture</h4>
+                <p>Join a keynote with Oliver Slack about music in medical treatment.</p>
+                <h6>Read more</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
 
   <!-- Courses -->
 
-      <div class="container">
         <div class="courses">
           <h2>Start Learning</h2>
-          <div class="course" "container">
+          <div class="course">
             <div class="box">
               <img src="./resources/images/course-software.jpg" alt="software">
-              <h4>Software Engineering</h4>
-              <h5>Courses</h5>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+              <div class="box-copy">
+                <h4>Software Engineering</h4>
+                <h5>Courses</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-computer-art.jpg" alt="computer">
-              <h4>Computer article</h4>
-              <h5>Courses</h5>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <div class="box-copy">
+                <h4>Computer Article</h4>
+                <h5>Courses</h5>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-design.jpg" alt="design">
-              <h4>Design</h4>
-              <h5>Courses</h5>
-              <p>User Experience Design, User Research, Visual Design</p>
+              <div class="box-copy">
+                <h4>Design</h4>
+                <h5>Courses</h5>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-data.jpg" alt="data">
-              <h4>Data</h4>
-              <h5>Courses</h5>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+              <div class="box-copy">
+                <h4>Data</h4>
+                <h5>Courses</h5>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-business.jpg" alt="business">
-              <h4>Business</h4>
-              <h5>Courses</h5>
-              <p>Product Develpment, Business Development, Startup</p>
+              <div class="box-copy">
+                <h4>Business</h4>
+                <h5>Courses</h5>
+                <p>Product Develpment, Business Development, Startup</p>
+              </div>
             </div>
             <div class="box">
               <img src="./resources/images/course-marketing.jpg" alt="marketing">
-              <h4>Marketing</h4>
-              <h5>Courses</h5>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <div class="box-copy">
+                <h4>Marketing</h4>
+                <h5>Courses</h5>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
-          </div>
+            </div>
+            <div class="mobile-box">
+              <ul>
+                <li><h4>Software Engineering</h4></li>
+                <li><h4>Computer Art</h4></li>
+                <li><h4>Design</h4></li>
+                <li><h4>Data</h4></li>
+                <li><h4>Business</h4></li>
+                <li><h4>Marketing</h4></li>
+              </ul>
+            </div>
+
         </div>
-      </div>
+
 
 <!-- Thesis -->
 
-      <div class="container">
-        <div class="info">
+        <div class="thesis">
           <h2>Thesis Exhibit</h2>
-          <div class="main" "container">
-            <video src="./resources/videos/thesis.mp4" autoplay poster="posterimage.jpg" width="600px" height="400px" controls="pause/play">Video Not Supported
-            </video>
-            <h4>Reimagine Urban</h4>
-            <span class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam egat magna laoreet, efficitur dolor consequat, tritique ligula."</span>
-          </div>
-
-          <!-- Secondary -->
-
-          <div class="secondary" "container">
-            <div class="second">
-              <img src="./resources/images/thesis-fisma.jpg" alt="fisma" id="fisma">
-              <h4>Fisma: Design and</h4>
-              <p>Designer showcase of new prototype product</p>
+        </div>
+        <div class="info" id="thesis">
+          <div class="main">
+            <div class="main-video">
+              <video controls poster>
+                <source src="./resources/videos/thesis.mp4" type="video/mp4" id="video"> Your browser does not support this video.
+              </video>
             </div>
-            <div class="second">
-              <img src="./resources/images/information-campus.jpg" alt="campus" id="campus">
-              <h4>Now and Then</h4>
-              <p>Research study about New York</p>
+            <div class="video-text">
+              <h4>Reimagine Urban</h4>
+              <p class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam egat magna laoreet, efficitur dolor consequat, tritique ligula."</p>
+            </div>
+          </div>
+      <div class="mobile-video">
+        <video controls poster>
+          <source src="./resources/videos/thesis.mp4" type="video/mp4" id="video"> Your browser does not support this video.
+        </video>
+      </div>
+
+          <!-- Articles -->
+
+          <div class="article-container">
+            <div class="articles">
+              <div class="article" id="video">
+                <img src="./resources/images/thesis-fisma.jpg" alt="fisma" id="fisma">
+                <div class="description">
+                  <h4>Fisma: Design and</h4>
+                  <p>Designer showcase of new prototype product</p>
+                </div>
+              </div>
+              <div class="article" id="article5">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="campus" id="Now">
+                <div class="description">
+                  <h4>Now and Then</h4>
+                  <p>Research study about New York</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+
 
 <!-- Footer -->
-    <footer class="container">
+    <footer>
       <div class="copyright">
         <span>© 2016 Colmar Academy. All rights reserved</span>
       </div>
-      <div class="Terms">
-        <ul>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
+      <div class="terms">
+        <nav>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </body>
