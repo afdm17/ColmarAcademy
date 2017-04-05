@@ -141,7 +141,7 @@ li a:hover {
   font-weight: bold;
 }
 
-/* Informations */
+/* Information */
 
 .info {
   display: flex;
@@ -220,6 +220,9 @@ li a:hover {
   margin: 0 16px;
 }
 
+.mobile-image {
+  display: none;
+}
 .description {
   align-content: center;
   display: flex;
@@ -361,10 +364,10 @@ video {
   color: #0e8a91;
   text-transform: uppercase;
 }
-
 .mobile-video {
   display: none;
 }
+
 
 /* Footer */
 footer {
@@ -456,7 +459,7 @@ footer .terms nav ul li a{
   }
 
   /* Articles */
-  .main {
+  #main1 {
     display: none;
   }
 
@@ -479,18 +482,20 @@ footer .terms nav ul li a{
     flex-direction: column;
     border-bottom: none;
     margin-left: 0;
+    justify-content: center;
+    padding-right: 32px;
   }
 
-  .article img {
-    width: auto;
+  .article .mobile-image {
+    width: 100%;
     height: auto;
     padding: 1rem 0;
     display: flex;
     margin: 16px;
   }
 
-  .article img #guest {
-
+  .desktop-image {
+    display: none;
   }
 
   .description {
@@ -503,6 +508,8 @@ footer .terms nav ul li a{
   #article3 {
     background-color: white;
   }
+
+/* Courses */
 
   .courses {
     padding-bottom: 2rem;
@@ -542,14 +549,45 @@ footer .terms nav ul li a{
     font-weight: 300;
   }
 
-  #thesis .article-container {
+  #article4, #article5 {
     display: none;
   }
 
-  .mobile-video {
-    display: flex;
+/* Video */
 
+  .video-text {
+    display: none;
   }
+
+  #thesis-articles {
+    display: none;
+  }
+
+  #thesis{
+    display: none;
+  }
+
+  .mobile-video-container .mobile-video {
+    height: 400px;
+    margin: 0px;
+    display: flex;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 791e14d0d331b4294ec4e0277e0833dbca5bac02
+  }
+
+  video {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 0px 0 0px;
+    padding: 0 5px 10px 5px;
+  }
+
+
+
+
 
   footer {
     font-size: .75rem;
