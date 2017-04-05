@@ -67,7 +67,7 @@
 <!-- Information -->
 
       <div class="info">
-        <div class="main">
+        <div class="main" id="main1">
           <img src="./resources/images/information-main.jpg" alt="main">
           <h2>It doesn't hurt to keep practicing</h2>
           <p class="quote"><em>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accuman urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</em></p>
@@ -78,7 +78,8 @@
         <div class="article-container">
           <div class="articles">
             <div class="article" id="article1">
-              <img src="./resources/images/information-orientation.jpg" alt="orientation">
+                <img  src="./resources/images/information-orientation.jpg" alt="orientation" class="desktop-image">
+                <img src="./resources/images/information-orientation-mobile.jpg" alt="orientation" class="mobile-image">
               <div class="description">
                 <h4>Orientation Date</h4>
                 <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -86,7 +87,8 @@
               </div>
             </div>
             <div class="article" id="article2">
-              <img src="./resources/images/information-campus.jpg" alt="campus">
+                <img src="./resources/images/information-campus.jpg" alt="campus" class="desktop-image">
+                <img src="./resources/images/information-campus-mobile.jpg" alt="campus" class="mobile-image">
               <div class="description">
                 <h4>Our Campus</h4>
                 <p>Find which campus is close by you</p>
@@ -94,7 +96,8 @@
               </div>
             </div>
             <div class="article" id="article3">
-              <img src="./resources/images/information-guest-lecture.jpg" alt="guest">
+                <img src="./resources/images/information-guest-lecture.jpg" alt="guest" class="desktop-image">
+                <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="guest" class="mobile-image">
               <div class="description">
                 <h4>Our Guest Lecture</h4>
                 <p>Join a keynote with Oliver Slack about music in medical treatment.</p>
@@ -191,17 +194,13 @@
               <p class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam egat magna laoreet, efficitur dolor consequat, tritique ligula."</p>
             </div>
           </div>
-      <div class="mobile-video">
-        <video controls poster>
-          <source src="./resources/videos/thesis.mp4" type="video/mp4" id="video"> Your browser does not support this video.
-        </video>
-      </div>
+
 
           <!-- Articles -->
 
-          <div class="article-container">
+          <div class="article-container" id="thesis-articles">
             <div class="articles">
-              <div class="article" id="video">
+              <div class="article" id="article4">
                 <img src="./resources/images/thesis-fisma.jpg" alt="fisma" id="fisma">
                 <div class="description">
                   <h4>Fisma: Design and</h4>
@@ -216,6 +215,15 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <!-- Mobile Video -->
+        <div class="mobile-video-container">
+          <div class="mobile-video">
+            <video controls poster>
+              <source src="./resources/videos/thesis.mp4" type="video/mp4" id="video"> Your browser does not support this video.
+            </video>
           </div>
         </div>
 
