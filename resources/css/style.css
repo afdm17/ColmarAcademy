@@ -141,7 +141,7 @@ li a:hover {
   font-weight: bold;
 }
 
-/* Informations */
+/* Information */
 
 .info {
   display: flex;
@@ -220,6 +220,9 @@ li a:hover {
   margin: 0 16px;
 }
 
+.mobile-image {
+  display: none;
+}
 .description {
   align-content: center;
   display: flex;
@@ -479,18 +482,20 @@ footer .terms nav ul li a{
     flex-direction: column;
     border-bottom: none;
     margin-left: 0;
+    justify-content: center;
+    padding-right: 32px;
   }
 
-  .article img {
-    width: auto;
+  .article .mobile-image {
+    width: 100%;
     height: auto;
     padding: 1rem 0;
     display: flex;
     margin: 16px;
   }
 
-  .article img #guest {
-
+  .desktop-image {
+    display: none;
   }
 
   .description {
@@ -572,7 +577,8 @@ footer .terms nav ul li a{
     display: flex;
     width: 100%;
     height: auto;
-    margin: 0 0px 0 -10px;
+    margin: 0 0px 0 0px;
+    padding: 0 5px 10px 5px;
   }
 
 
